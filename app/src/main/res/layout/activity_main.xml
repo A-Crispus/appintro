@@ -4,6 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#DA6969"
+    android:visibility="visible"
     tools:context=".MainActivity">
 
     <TextView
@@ -11,6 +13,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!"
+        android:textColor="#212121"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.323"
@@ -34,8 +37,8 @@
         android:id="@+id/textView2"
         android:layout_width="208dp"
         android:layout_height="54dp"
-        android:text="Introduction"
-        android:textColor="#56BDA9"
+        android:text="@string/introduction"
+        android:textColor="#E8F5E9"
         android:textSize="28sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
